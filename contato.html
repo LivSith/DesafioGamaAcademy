@@ -4,14 +4,32 @@
         <link rel="stylesheet" href="estilo.css">
     </head>
     <body>
-        <div id="cabecalho">
-            <h1>Minha loginha na internet</h1>
-        </div>
-        <div id="navbar">
-            <div><a href="index.html"> Home </a></div>
-            <div><a href="quemsomos.html"> Quem Somos </a> </div>
-            <div><a href="contato.html"> Contato </a></div>
-            <div><a href="blog.html"> Fique Por Dentro </a></div>
+        <div id="conteudo">
+
+            <div id="cabecalho">
+                <h1>Contato</h1>
+            </div>
+            <div id="navbar">
+                <div><a href="index.html"> Home </a></div>
+                <div><a href="sobre.html"> Sobre </a> </div>
+                <div><a href="contato.html"> Contato </a></div>
+                <div><a href="saiba-mais.html"> Saiba Mais </a></div>
+            </div>
+
+            <div class="container-contato">
+                <form action="/action_page.php">
+                    <label for="fname">Primeiro Nome</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Primeiro Nome">
+
+                    <label for="lname">Sobrenome</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Sobrenome">
+
+                    <label for="subject">Escreva sua mensagem</label>
+                    <textarea id="subject" name="subject" placeholder="Escreva sua mensagem" style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </div>
     </body>
 </html>
