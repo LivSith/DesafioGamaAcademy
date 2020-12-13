@@ -1,0 +1,117 @@
+body{
+    background-color:rgb(180, 180,180);
+    font-family: sans-serif
+}
+
+#cabecalho{
+    border: black 1px solid;
+    border-radius: 10px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    box-shadow: black 2px 2px 5px;
+}
+
+#conteudo{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
+
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    text-decoration: unset;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#imgdaloja{
+    width: 100%;
+}
+
+#tituloDestaque{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-shadow: gray 1px 1px 5px;
+}
+
+#produtos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtoDestaque{
+    border: gray 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: gray 2px 2px 3px;
+}
+
+.imgDestaque{
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.descDestaque{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+#rodape{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(110, 110, 110);
+    margin-top: 30px;
+
+}
+
+#redessociais{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+.redes{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#email{
+    margin-right: 50px;
+}
+
+#receba{
+    color: white;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: rgb(80, 80, 250);
+    width: 100px;
+    height: 60px;
+    border: rgb(80, 80, 250) 1px solid;
+    color: white;
+    font-size: 20px;
+    box-shadow: blue 2px 2px 5px;
+}
